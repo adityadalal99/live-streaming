@@ -12,5 +12,9 @@ export class StreamsService {
     return await this.waitForMe(10000);
   }
 
-  async 
+  async startSream() {
+    const id = 1;
+    console.log('id: ', id);
+    return;
+  }
 }
